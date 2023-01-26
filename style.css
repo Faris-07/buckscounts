@@ -13,3 +13,42 @@
 }
 
 /* your code */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 50%;
+  background-color: #1e3932;
+}
+
+nav, h1 {
+  display: flex;
+  font-size: 2em;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  color: #d4e9e2;
+}
+
+header {
+  box-sizing: border-box;
+  background-color: #f2f0eb;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+section {
+  border: 3px solid #f2f0eb;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px;
+}
+
+div {
+  border: 2px solid #00754a;
+  background-color: #00754a;
+  padding: 5px;
+  margin: 5px;
+}
